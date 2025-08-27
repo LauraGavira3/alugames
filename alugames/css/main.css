@@ -13,7 +13,7 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* corrigido: não centraliza mais */
 
     padding: 2rem;
 }
@@ -124,6 +124,10 @@
     border-radius: 1rem;
 
     background-color: #1875E8;
+
+    /* ajustes para botão */
+    border: none;
+    cursor: pointer;
 }
 
 .dashboard__item__button--return {
