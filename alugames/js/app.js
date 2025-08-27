@@ -37,7 +37,7 @@ function mostrarToast(texto) {
     setTimeout(() => {
         toast.classList.remove("show");
         setTimeout(() => toast.remove(), 400); // espera animação sumir
-    }, 10000);
+    }, 5000);
 }
 
 
